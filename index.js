@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://HarshitKedia:AAbb@cluster0.mbfz0pr.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://HarshitKedia:<password>@cluster0.mbfz0pr.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
